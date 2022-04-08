@@ -20,4 +20,4 @@ io.on('connection', socket => {
 });
 
 server.on('error', () => console.error(err));
-server.listen(3000, () => console.log('Listening on *:3000'));
+server.listen(80, () => console.log('Listening on *:80'));
